@@ -6,7 +6,7 @@ struct ErrorCode: Codable {
     var error: String?
 }
 
-@available(iOS 13.0.0, *)
+@available(iOS 13.0, tvOS 13.0, *)
 public class idevicedebuglauncherlib: ObservableObject {
     @Published public var info = ""
     public init() {}
